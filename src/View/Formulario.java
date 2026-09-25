@@ -41,6 +41,18 @@ public class Formulario {
         lblResultado.setBounds(50, 150, 80, 25);
         form.add(lblResultado);
 
+        // TextFields
+        txtValor1 = new JTextField();
+        txtValor1.setBounds(130, 30, 150, 25);
+        form.add(txtValor1);
+
+        txtValor2 = new JTextField();
+        txtValor2.setBounds(130, 70, 150, 25);
+        form.add(txtValor2);
+
+        txtValor3 = new JTextField();
+        txtValor2.setBounds(130, 110, 150, 25);
+        form.add(txtValor3);
 
 
 
