@@ -2,6 +2,8 @@ package View;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Formulario {
 
@@ -54,6 +56,18 @@ public class Formulario {
         txtValor2.setBounds(130, 110, 150, 25);
         form.add(txtValor3);
 
+        // buton
+
+        btnCalcular = new JButton("Calcular Rendimento");
+        btnCalcular.setBounds(50, 180, 70, 30);
+        form.add(btnCalcular);
+
+        btnCalcular.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
 
 
     }
