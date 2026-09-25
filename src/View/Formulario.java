@@ -35,7 +35,7 @@ public class Formulario {
         lblValor2.setBounds(50, 70, 80, 25);
         form.add(lblValor2);
 
-        lblValor3 = new JLabel("Investimento");
+        lblValor3 = new JLabel("Taxa");
         lblValor3.setBounds(50, 110, 80, 25);
         form.add(lblValor3);
 
