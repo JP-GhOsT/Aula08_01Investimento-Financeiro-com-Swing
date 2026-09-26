@@ -1,6 +1,6 @@
 package Business;
 
-interface IAplicacao {
+public interface IAplicacao {
 
-    void calcularRendimento();
+    void calcularRendimento(float valorAplicado, int prazo, float taxa);
 }
